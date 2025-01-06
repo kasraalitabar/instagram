@@ -1,0 +1,13 @@
+.post {
+    width: 40%;
+    margin: .5rem auto;
+    border: 1px solid black;
+    padding: 1rem;
+    height: 520px;
+}
+
+.comment {
+    border: 1px solid gray;
+    padding: 1rem;
+    margin: .5rem;
+}
