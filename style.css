@@ -1,13 +1,62 @@
 .post {
-    width: 40%;
+    width: 20%;
     margin: .5rem auto;
     border: 1px solid black;
     padding: 1rem;
     height: 520px;
+    position: relative;
+    border-radius: 10px;
 }
 
 .comment {
     border: 1px solid gray;
     padding: 1rem;
     margin: .5rem;
+
+}
+.reel{
+    position: absolute;
+    top: 0rem;
+    left: 1rem;
+}
+h2{
+    margin-top: 40%;
+    width: 80%;
+}
+p{
+    width: 80%;
+    position: absolute;
+    bottom: 1rem;
+}
+i{
+    width: 20px;
+}
+svg{
+    width: 40px;
+    position: absolute;
+    right: 7px;
+    top: 55%;
+}
+.img{
+    background-color: rgb(56, 56, 56);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 25%;
+}
+.page{
+
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    overflow: scroll;
+    background-color: rgb(255, 255, 255);
+}
+.pageContent{
+    background-color: rgb(138, 138, 138);
+    width: 100%;
+    max-width: 600px;
 }
