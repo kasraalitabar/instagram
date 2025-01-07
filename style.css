@@ -78,3 +78,10 @@ svg{
     cursor: pointer;
     content: s;
 }
+.hide{
+    display: none;
+}
+#close{
+    width: 10px;
+    height: 10px;
+}
