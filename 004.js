@@ -52,8 +52,4 @@ function change()
     if (elem.value=="following") elem.value = "follow";
     else elem.value = "following";
 }
-function close(){
-    if(hie){
-        hie.classList.add(".hide")
-    }
-}
+
