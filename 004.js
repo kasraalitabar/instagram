@@ -1,5 +1,5 @@
 const ad =document.getElementById("page")
-
+const hie = document.getElementById("close")
 fetch("https://jsonplaceholder.typicode.com/posts")
 .then(response => response.json())
 .then(json => renderPosts(json))

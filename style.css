@@ -1,8 +1,10 @@
 body{
     background-color: rgb(14, 14, 14);
+    z-index: 500000;
 }
 
 .post {
+    z-index: 1000;
     width: 20%;
     margin: .5rem auto;
     border: 1px solid black;
@@ -11,6 +13,7 @@ body{
     position: relative;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
+    overflow-x: scroll;
 }
 
 .comment {
@@ -39,7 +42,7 @@ i{
 svg{
     width: 40px;
     position: absolute;
-    right: 7px;
+    right: 16px;
     top: 55%;
 }
 .img{
@@ -51,19 +54,20 @@ svg{
     bottom: 25%;
 }
 .page{
-    position: absolute;
-    z-index: 1000;
-    top: 0;
-    left: 0;
-    width: auto;
-    height: auto;
+    margin-bottom: 1rem;
     overflow: hidden;
+    width: 100%;
+    height: auto;
     background-color: rgb(255, 255, 255);
+    position: relative;
+    margin-bottom: 0;
+    max-width: 600px;
 }
 .pageContent{
     background-color: rgb(138, 138, 138);
     width: 100%;
     max-width: 600px;
+    z-index: 30000000000000;
 }
 .follow{
     position: absolute;
