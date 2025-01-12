@@ -13,7 +13,7 @@ body{
     position: relative;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
-    overflow-x: scroll;
+    overflow-y: auto;
 }
 
 .comment {
